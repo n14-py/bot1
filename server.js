@@ -11,7 +11,7 @@ app.get("/", (req, res) => {
 
 const pingTargets = [
   "https://bot2.onrender.com",
-  "https://ejemplo.com" // Cambia esto por la página que quieres hacer ping
+  "https://relaxstationbot.onrender.com/" // Cambia esto por la página que quieres hacer ping
 ];
 
 const hacerPing = async () => {
