@@ -11,7 +11,8 @@ app.get("/", (req, res) => {
 
 const pingTargets = [
   "https://bot2-hpse.onrender.com",
-  "https://relaxstationbot.onrender.com/" // Cambia esto por la página que quieres hacer ping
+  "https://relaxstationbot.onrender.com/"
+   "x19.glitch.me"
 ];
 
 const hacerPing = async () => {
