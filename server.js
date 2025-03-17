@@ -1,4 +1,4 @@
-,const express = require("express");
+const express = require("express");
 const axios = require("axios");
 const path = require("path");
 
@@ -12,7 +12,7 @@ app.get("/", (req, res) => {
 const pingTargets = [
   "https://bot2-hpse.onrender.com",
   "https://relaxstationbot.onrender.com/",
-   "https://x19.glitch.me"
+  "https://x19.glitch.me" // Agregando un nuevo sitio
 ];
 
 const hacerPing = async () => {
