@@ -12,7 +12,7 @@ app.get("/", (req, res) => {
 const pingTargets = [
   "https://bot2-hpse.onrender.com",
   "https://relaxstationbot.onrender.com/"
-   "x19.glitch.me"
+   "https://x19.glitch.me"
 ];
 
 const hacerPing = async () => {
